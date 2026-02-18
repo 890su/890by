@@ -3,15 +3,15 @@ echo.
 echo  IE Mode Setup for Microsoft Edge
 echo  =================================
 echo.
-echo  Скрипт настроит режим IE в Edge для белорусских госпорталов.
-echo  Требуется запуск от имени администратора.
+echo  Skript nastroit rezhim IE v Edge dlya belorusskih gosportalov.
+echo  Trebuetsya zapusk ot imeni administratora.
 echo.
 
-:: Проверка прав администратора
+:: Proverka prav administratora
 net session >nul 2>&1
 if %errorlevel% neq 0 (
-    echo  [!] Запустите этот файл от имени администратора!
-    echo      Правая кнопка мыши - "Запуск от имени администратора"
+    echo  [!] Zapustite etot fayl ot imeni administratora!
+    echo      Pravaya knopka myshi - "Zapusk ot imeni administratora"
     echo.
     pause
     exit /b 1

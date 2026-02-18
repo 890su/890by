@@ -1,10 +1,10 @@
 @echo off
 echo.
-echo  cert-govby-update - обновление сертификатов
+echo  cert-govby-update - obnovlenie sertifikatov
 echo  ============================================
 echo.
-echo  Скачивает и устанавливает корневые сертификаты
-echo  МНС, НЦЭУ, Белстат для работы с госпорталами РБ.
+echo  Skachivaet i ustanavlivaet kornevye sertifikaty
+echo  MNS, NCUE, Belstat dlya raboty s gosportalami RB.
 echo.
 
 powershell -ExecutionPolicy Bypass -File "%~dp0cert-govby-update.ps1"

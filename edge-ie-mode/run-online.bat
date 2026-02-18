@@ -3,15 +3,15 @@ echo.
 echo  IE Mode Setup for Microsoft Edge (online)
 echo  ==========================================
 echo.
-echo  Скрипт скачает актуальную версию с GitHub и выполнит.
-echo  Требуется запуск от имени администратора.
+echo  Skript skachaet aktualnuyu versiyu s GitHub i vypolnit.
+echo  Trebuetsya zapusk ot imeni administratora.
 echo.
 
-:: Проверка прав администратора
+:: Proverka prav administratora
 net session >nul 2>&1
 if %errorlevel% neq 0 (
-    echo  [!] Запустите этот файл от имени администратора!
-    echo      Правая кнопка мыши - "Запуск от имени администратора"
+    echo  [!] Zapustite etot fayl ot imeni administratora!
+    echo      Pravaya knopka myshi - "Zapusk ot imeni administratora"
     echo.
     pause
     exit /b 1
