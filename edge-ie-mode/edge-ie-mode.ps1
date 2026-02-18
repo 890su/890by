@@ -42,6 +42,10 @@ $xml = @'
     <compat-mode>IE11</compat-mode>
     <open-in>IE11</open-in>
   </site>
+  <site url="portal2.ssf.gov.by/mainPage/">
+    <compat-mode>IE11</compat-mode>
+    <open-in>IE11</open-in>
+  </site>
   <site url="portal.vat.gov.by">
     <compat-mode>IE11</compat-mode>
     <open-in>IE11</open-in>
