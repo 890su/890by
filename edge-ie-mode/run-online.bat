@@ -17,4 +17,4 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/890by/support-tools/main/edge-ie-mode/edge-ie-mode.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/890su/890by/main/edge-ie-mode/edge-ie-mode.ps1 | iex"

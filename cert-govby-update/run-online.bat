@@ -6,6 +6,6 @@ echo.
 echo  Скрипт скачает актуальную версию с GitHub и выполнит.
 echo.
 
-powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/890by/support-tools/main/cert-govby-update/cert-govby-update.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/890su/890by/main/cert-govby-update/cert-govby-update.ps1 | iex"
 
 pause

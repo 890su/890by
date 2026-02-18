@@ -14,7 +14,7 @@
 Откройте **PowerShell** и вставьте:
 
 ```powershell
-irm https://raw.githubusercontent.com/890by/support-tools/main/cert-govby-update/cert-govby-update.ps1 | iex
+irm https://raw.githubusercontent.com/890su/890by/main/cert-govby-update/cert-govby-update.ps1 | iex
 ```
 
 ## Запуск через .bat

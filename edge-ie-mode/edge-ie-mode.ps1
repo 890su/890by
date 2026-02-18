@@ -5,7 +5,7 @@
 # ============================================================
 # Запуск: PowerShell от администратора
 # Версия: 1.0 | Февраль 2026
-# GitHub: https://github.com/890by/support-tools
+# GitHub: https://github.com/890su/890by
 # ============================================================
 
 #Requires -RunAsAdministrator

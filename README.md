@@ -20,7 +20,7 @@
 Откройте PowerShell от администратора и вставьте:
 
 ```powershell
-irm https://raw.githubusercontent.com/890by/support-tools/main/edge-ie-mode/edge-ie-mode.ps1 | iex
+irm https://raw.githubusercontent.com/890su/890by/main/edge-ie-mode/edge-ie-mode.ps1 | iex
 ```
 
 **Вариант 2 — скачать и запустить через .bat:**

@@ -18,7 +18,7 @@
 Откройте **PowerShell** (права администратора не требуются):
 
 ```powershell
-irm https://raw.githubusercontent.com/890by/support-tools/main/ie-portals-setup/ie-portals-setup.ps1 | iex
+irm https://raw.githubusercontent.com/890su/890by/main/ie-portals-setup/ie-portals-setup.ps1 | iex
 ```
 
 ## Запуск через .bat
