@@ -1,7 +1,7 @@
 # --- НАСТРОЙКИ ---
 
 # Каталог, куда будут загружены файлы
-$downloadFolder = "C:\ProgramData\crt-by"
+$downloadFolder = Join-Path $env:LOCALAPPDATA "crt-by"
 
 # Создать каталог, если его нет
 New-Item -ItemType Directory -Path $downloadFolder -Force | Out-Null
