@@ -1,10 +1,9 @@
 # --- НАСТРОЙКИ ---
 
 # Каталог, куда будут загружены файлы
-$baseFolder = Split-Path -Parent $MyInvocation.MyCommand.Definition
-$downloadFolder = Join-Path $baseFolder "cert"
+$downloadFolder = "C:\ProgramData\crt-by"
 
-# Создать подкаталог 'cert', если его нет
+# Создать каталог, если его нет
 New-Item -ItemType Directory -Path $downloadFolder -Force | Out-Null
 
 # Список URL сертификатов
